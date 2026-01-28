@@ -111,3 +111,62 @@ static void Main(string[] args)
     char letra = ObtenerPrimerCaracter("ChatGPT");
 }
 ```
+
+# Firmas 15-20
+
+
+```csharp
+
+class Feline
+{
+    public void meow(string whatSay) // firma 8
+    {
+        return "";
+    }
+    protected void scratch (int howMany) //9
+    {
+        return 0;
+    }
+    protected void stretch (float howFar) //10
+    {
+        return 0f;
+    }
+}
+
+class Cat : Feline
+{
+    public void purr(double howLong) //11
+    {
+        return 0.0;
+    }
+}
+
+class Program
+{
+    static void xTimes (int n, int x) //12
+    {
+        return 0;        
+    }
+
+    public void convertInt(string numbers) //13
+    {
+        return 0;
+    }
+
+    static void Main (string[] args)
+    {
+        Cat toriCat = new Cat;
+        toriCat.meow("mew"); // invocacion
+        toriCat.purr(20.8); // invocacion
+        toriCat.scratch(5); // invocacion
+        toriCat.stretch(8); // invocacion
+
+        int product = xTimes(2,4); // invocacion
+
+        string  neo = "127"
+        int nct = 0;
+        nct = convertInt(neo); // invocacion        
+    }   
+
+
+```
