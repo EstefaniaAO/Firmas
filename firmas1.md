@@ -5,7 +5,7 @@ public static void Saludar()
 {
 }
 
-public static int Sumar(int a, int b)
+public static int Sumatoria(int num1, int num2)
 {
     return 0;
 }
